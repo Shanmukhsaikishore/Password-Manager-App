@@ -1,0 +1,71 @@
+.list-item {
+  width: 300px;
+  border: 1px solid #9ba9eb;
+  border-radius: 5px;
+  padding: 20px 20px 20px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+.profile {
+  display: flex;
+}
+.del-icon {
+  height: 20px;
+  width: 20px;
+  margin: 0px;
+}
+.del-button {
+  padding: 0px;
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+}
+
+.profile-name {
+  align-self: center;
+  font-size: 20px;
+  font-family: 'Roboto';
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.text-container {
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-left: 10px;
+  align-self: center;
+}
+.website {
+  margin: 0px;
+  margin-bottom: 5px;
+}
+.username {
+  margin: 0px;
+  margin-bottom: 5px;
+}
+.password {
+  margin: 0px;
+}
+.star-image {
+  height: 20px;
+  width: 140px;
+}
+
+@media screen and (max-width: 767px) {
+  .list-item {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  .text-container {
+    font-size: 14px;
+  }
+}

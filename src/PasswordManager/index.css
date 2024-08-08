@@ -1,0 +1,260 @@
+.bg-1 {
+  background-color: #0b69ff;
+}
+.bg-2 {
+  background-color: #7683cb;
+}
+.bg-3 {
+  background-color: #f59e0b;
+}
+.bg-4 {
+  background-color: #10b981;
+}
+.bg-5 {
+  background-color: #f97316;
+}
+.bg-6 {
+  background-color: #14b8a6;
+}
+.bg-7 {
+  background-color: #b91c1c;
+}
+.bg-8 {
+  background-color: #0ea5e9;
+}
+.bg-9 {
+  background-color: #64748b;
+}
+
+.bg-container {
+  height: 100%;
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  padding: 30px 80px 30px 80px;
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  height: 70px;
+  width: 220px;
+  align-self: flex-start;
+  margin-bottom: 30px;
+}
+.top-card-container {
+  display: flex;
+  background-color: #5763a5;
+  padding: 40px 30px 40px 30px;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.form-container {
+  padding: 20px;
+  background-color: #454f84;
+  border-radius: 10px;
+  width: 50%;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-heading {
+  font-size: 24px;
+  font-weight: 500;
+  color: #f8fafc;
+  margin-bottom: 0px;
+}
+.input-item {
+  display: flex;
+  background-color: #f8fafc;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #94a3b8;
+}
+.logo-container {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-logo {
+  height: 20px;
+  width: 20px;
+}
+.input-box {
+  background-color: #f8fafc;
+  outline: none;
+  width: 100%;
+  border-width: 0px;
+  border-left: 1px solid #94a3b8;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-left: 5px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.add-button {
+  cursor: pointer;
+  background-color: #0b69ff;
+  color: #ffffff;
+  height: 30px;
+  outline: none;
+  width: 70px;
+  border-width: 0px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  align-self: flex-end;
+}
+.image {
+  width: 45%;
+  height: 350px;
+}
+
+.bottom-card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #5763a5;
+  padding: 10px 30px 30px 30px;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 50%;
+}
+
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-content {
+  display: flex;
+  align-items: center;
+}
+.count {
+  font-size: 14px;
+  border: 1px solid #94a3b8;
+  margin-bottom: 10px;
+  color: #f8fafc;
+  margin-left: 7px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2px;
+  border-radius: 10px;
+  width: 30px;
+}
+
+.search-item {
+  display: flex;
+  background-color: #f8fafc;
+  height: 30px;
+  border-radius: 0px;
+  border: 1px solid #94a3b8;
+  width: 30%;
+}
+.bottom-heading {
+  font-size: 24px;
+  font-weight: 500;
+  color: #f8fafc;
+}
+.separator {
+  width: 100%;
+  border: 1px solid #9ba9eb;
+}
+.show-password-container {
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+}
+.check-box {
+  height: 20px;
+  width: 20px;
+  outline: none;
+  border-width: 0px;
+}
+.para {
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-weight: 400;
+  margin-left: 7px;
+}
+
+.list-container {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.hidden-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-passwords-image {
+  height: 250px;
+  width: 350px;
+}
+.sm-image {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .bg-container {
+    padding: 20px;
+  }
+  .logo {
+    height: 40px;
+    width: 120px;
+  }
+  .top-card-container {
+    flex-direction: column;
+  }
+  .form-container {
+    width: 100%;
+    order: 2;
+  }
+  .input-item {
+    margin-bottom: 20px;
+  }
+  .form-heading {
+    margin-bottom: 20px;
+    font-size: 17px;
+  }
+  .sm-image {
+    display: block;
+    width: 100%;
+    order: 1;
+    margin-bottom: 20px;
+  }
+  .top-card-container {
+    padding: 10px;
+  }
+  .image {
+    display: none;
+  }
+  .bottom-heading {
+    font-size: 13px;
+  }
+  .search-item {
+    height: 30px;
+    width: 40%;
+  }
+  .no-passwords-image {
+    width: 80%;
+  }
+  .bottom-card-container {
+    padding: 10px;
+    height: 40%;
+  }
+  .para {
+    font-size: 13px;
+  }
+  .list-container {
+    flex-direction: column;
+  }
+}
